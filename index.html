@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap IG Feed</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/667f2e868d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <textarea class="form-control mb-2" id="exampleFormControlTextarea1" rows="2"></textarea>
+          <button type="button" class="btn btn-light"><i class="fa-solid fa-camera"></i></button>
+          <button type="button" class="btn btn-light"><i class="fa-solid fa-location-dot"></i></button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-success">Publish</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Nav -->
+  <container>
+    <nav class="navbar sticky-top p-0">
+      <div class="container-fluid bg-light">
+        <a class="navbar-brand ms-3 ps-5" href="#">
+          <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/instagram_logo_icon_170643.png"
+            alt="" width=100px class="d-inline-block align-text-top">
+        </a>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-success ms-auto me-2" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">
+          Create a new post
+        </button>
+  
+        <!-- Dropdown -->
+
+        <div class="dropdown me-2">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fa-solid fa-gear"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </container>
+
+  <!-- Nav Pills -->
+
+  <container class="m-auto">
+    <div class="bg-white">
+      <ul class="nav nav-pills justify-content-center bg-white p-3" id="myTab">
+        <li class="nav-item">
+          <a href="#cardview" class="nav-link active outline-dark" data-bs-toggle="tab"><i
+              class="fa-solid fa-grip"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="#listview" class="nav-link outline-dark" data-bs-toggle="tab"><i class="fa-solid fa-square"></i></a>
+        </li>
+      </ul>
+
+  <!-- First Tab Content -->
+
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="cardview">
+          <div class="row">
+            <div class="col p-1">
+              <img
+                src="https://p4.wallpaperbetter.com/wallpaper/768/839/593/fire-guitar-skelet-on-fire-smashing-guitar-on-speaker-abstract-fantasy-hd-art-wallpaper-preview.jpg"
+                width="100%" height="100%">
+            </div>
+            <div class="col p-1">
+              <img src="https://www.insidedogsworld.com/wp-content/uploads/2016/04/maxresdefault-1-1000x600.jpg"
+                width="100%" height="100%">
+            </div>
+            <div class="col p-1">
+              <img
+                src="https://d1hfln2sfez66z.cloudfront.net/11-18-2021/t_9bb7158ef7834e80b0793c26fdf6b8d5_name_DogPhone_could_offer_dogs_the_ability_to_619676d229f511256af6ffc3_1_Nov_18_2021_16_25_58_poster.jpg"
+                width="100%" height="100%">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col p-1">
+              <img src="https://www.thedailymeal.com/sites/default/files/2021/06/03/hero.jpg" width="100%"
+                height="100%">
+            </div>
+            <div class="col p-1">
+              <img src="https://r7k2t3x9.rocketcdn.me/wp-content/uploads/2021/01/img-31367.jpg" width="100%" height="100%">
+            </div>
+            <div class="col p-1">
+              <img src="https://vecdn.eweso.net/images/content/az/blogs/de/thailand-repatriation-1.jpg" width="100%"
+                height="100%">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col p-1">
+              <img
+                src="https://sportsbookwire.usatoday.com/wp-content/uploads/sites/16/2022/05/USATSI_18305756-e1653156287796.jpg?crop=380px%2C0px%2C2475px%2C1485px&resize=1000%2C600"
+                width="100%" height="100%">
+            </div>
+            <div class="col p-1">
+              <img
+                src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3JhY29vbnMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoiMTIwMCJ9fX0="
+                width="100%" height="100%">
+            </div>
+            <div class="col p-1">
+              <img
+                src="https://www.arsenal.com/sites/default/files/styles/large_16x9/public/gun__1421051924_alexis_stoke30.jpg?itok=CB9BLqX5"
+                width="100%" height="100%">
+            </div>
+          </div>
+        </div>
+  </container>
+
+
+  <!-- Second Tab Content -->
+
+    <div class="tab-pane fade" id="listview">
+      <container class="bg-light">
+      <div class="row justify-content-md-center bg-light py-5" id="listview">
+        <div class="col-6 bg-white p-0">
+          <div class="row p-2">
+            <div class="col-10 ms-auto">
+              <h3>My first photo</h3>
+            </div>
+            <div class="col-2">
+              <h3 class="text-end text-muted">12/14</h3>
+            </div>
+          </div>
+          <div class="p-0 m-0">
+            <img
+              src="https://p4.wallpaperbetter.com/wallpaper/768/839/593/fire-guitar-skelet-on-fire-smashing-guitar-on-speaker-abstract-fantasy-hd-art-wallpaper-preview.jpg"
+              width="100%">
+          </div>
+          <div class="px-3 pt-2">
+            <span>23 Likes</span>
+            <p>This is my first photo of the feed. This is a multi line comment for testing purposes. I am learning
+              to code with <strong>#BreatheCode</strong></p>
+          </div>
+          <div class="row px-3 pb-2">
+            <div class="col">
+              <i class="fa-regular fa-heart" style="color:grey"></i>
+            </div>
+            <div class="col-10">
+              <span class="text-muted">
+                Comment...
+              </span>
+            </div>
+            <div class="col-1 text-end">
+              <i class="fa-solid fa-ellipsis-vertical" style="color:grey"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-md-center bg-light py-5" id="listview">
+        <div class="col-6 bg-white p-0">
+          <div class="row p-2">
+            <div class="col-10 ms-auto">
+              <h3>Some cute thing</h3>
+            </div>
+            <div class="col-2">
+              <h3 class="text-end text-muted">12/15</h3>
+            </div>
+          </div>
+          <div class="p-0 m-0">
+            <img
+              src="https://www.insidedogsworld.com/wp-content/uploads/2016/04/maxresdefault-1-1000x600.jpg"
+              width="100%">
+          </div>
+          <div class="px-3 pt-2">
+            <span>420 Likes</span>
+            <p>The internet approves this cute dog... <strong>#BreatheCode</strong></p>
+          </div>
+          <div class="row px-3 pb-2">
+            <div class="col">
+              <i class="fa-regular fa-heart" style="color:grey"></i>
+            </div>
+            <div class="col-10">
+              <span class="text-muted">
+                Comment...
+              </span>
+            </div>
+            <div class="col-1 text-end">
+              <i class="fa-solid fa-ellipsis-vertical" style="color:grey"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-md-center bg-light py-5" id="listview">
+        <div class="col-6 bg-white p-0">
+          <div class="row p-2">
+            <div class="col-10 ms-auto">
+              <h3>There's a paparazzi around</h3>
+            </div>
+            <div class="col-2">
+              <h3 class="text-end text-muted">12/16</h3>
+            </div>
+          </div>
+          <div class="p-0 m-0">
+            <img
+              src="https://d1hfln2sfez66z.cloudfront.net/11-18-2021/t_9bb7158ef7834e80b0793c26fdf6b8d5_name_DogPhone_could_offer_dogs_the_ability_to_619676d229f511256af6ffc3_1_Nov_18_2021_16_25_58_poster.jpg"
+              width="100%">
+          </div>
+          <div class="px-3 pt-2">
+            <span>69 Likes</span>
+            <p>This is me waiting for my screen to show my awesome first website made at <strong>#BreatheCode</strong></p>
+          </div>
+          <div class="row px-3 pb-2">
+            <div class="col">
+              <i class="fa-regular fa-heart" style="color:grey"></i>
+            </div>
+            <div class="col-10">
+              <span class="text-muted">
+                Comment...
+              </span>
+            </div>
+            <div class="col-1 text-end">
+              <i class="fa-solid fa-ellipsis-vertical" style="color:grey"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-md-center bg-light py-5" id="listview">
+        <div class="col-6 bg-white p-0">
+          <div class="row p-2">
+            <div class="col-10 ms-auto">
+              <h3>And of course... food</h3>
+            </div>
+            <div class="col-2">
+              <h3 class="text-end text-muted">12/17</h3>
+            </div>
+          </div>
+          <div class="p-0 m-0">
+            <img
+              src="https://www.thedailymeal.com/sites/default/files/2021/06/03/hero.jpg"
+              width="100%">
+          </div>
+          <div class="px-3 pt-2">
+            <span>305 Likes</span>
+            <p>Because no photo feed is cool without some food in it! <strong>#BreatheCode</strong></p>
+          </div>
+          <div class="row px-3 pb-2">
+            <div class="col">
+              <i class="fa-regular fa-heart" style="color:grey"></i>
+            </div>
+            <div class="col-10">
+              <span class="text-muted">
+                Comment...
+              </span>
+            </div>
+            <div class="col-1 text-end">
+              <i class="fa-solid fa-ellipsis-vertical" style="color:grey"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </container>
+  </div>
+  </div>
+  </div>
+  </div>
+  </nav>
+  </container>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
